@@ -42,7 +42,7 @@ I highly recommend also having the following:
 
 # Bill of Materials(BOM)
 Below is the breakdown of all materials you will need to build a Frog Boy Color.
-## Build Items
+## Build Components
 ### PCB
 ![FBC PCB](fbcPCB.jpg)
 The PCB for the Frog Boy Color is a custom 4-layer circuit board made to hold all of the circuitry and fit within the custom shell.
@@ -83,9 +83,25 @@ At this point, if you feel confident in your skills, you can proceed with the co
 However, I've devised an assembly strategy after assembling a few units that will allow you to check your work along the way, and I highly recommend that you follow along.
 ## PCB Assembly
 ### 1. Assembling and testing power circuitry
-The power circuitry consists of regulated 5V(TPS61202) and 3V(MCP1799T) rails. Start by populating all of the components in the red box on this diagram:
+The power circuitry consists of regulated 5V(TPS61202) and 3.3V(MCP1799T) rails. Start by populating all of the components in the red box on this diagram:
 
 ![Power circuitry](fbcPower.jpg)
+
+You'll then want to test these components to verify that the 5V and 3.3V rails are working correctly. Start by connecting one of your LiPo cells to the VCC1 test pad and pin 32(GND) on the cart slot -- I highly recommend using a multimeter in continuity mode to confirm that these points are not shorted.
+
+![Battery hook up points](fbcPowerTestHookup.jpg)
+
+Next, with your meter in DC voltage mode, do the following two tests to verify that the 5V and 3.3V rails are outputting the expected voltage.
+
+![Battery hook up points](fbcPowerTest.jpg)
+
+If everything looks good, you're ready to proceed to the next step.
 ### 2. Assembling and testing battery charging circuitry
+At the heart of the battery charging circuit is the BQ24072TRGTR, which provides both battery charging and power path management -- the latter allows for simultaneous charge and play. Alongside the charging circuitry is a soft latching power circuit, that allows for the use of a momentary push button switch to control power, in contrast to the GBC's slide switch.
+
+Again, start by populating the components indicated below:
+
+![Battery and power switch circuitry](fbcBattery.jpg)
+
 ### 3. Installing core GBC pieces
 ### 4. Assembly of remaining circuitry
