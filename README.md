@@ -44,7 +44,7 @@ I highly recommend also having the following:
 Below is the breakdown of all materials you will need to build a Frog Boy Color.
 ## Build Items
 ### PCB
-~[FBC PCB](fbcPCB.jpg)
+![FBC PCB](fbcPCB.jpg)
 The PCB for the Frog Boy Color is a custom 4-layer circuit board made to hold all of the circuitry and fit within the custom shell.
 
 Order here: LINK GOES HERE
@@ -85,7 +85,7 @@ However, I've devised an assembly strategy after assembling a few units that wil
 ### 1. Assembling and testing power circuitry
 The power circuitry consists of regulated 5V(TPS61202) and 3V(MCP1799T) rails. Start by populating all of the components in the red box on this diagram:
 
-~[Power circuitry](fbcPower.jpg)
+![Power circuitry](fbcPower.jpg)
 ### 2. Assembling and testing battery charging circuitry
 ### 3. Installing core GBC pieces
 ### 4. Assembly of remaining circuitry
