@@ -68,11 +68,12 @@ The Frog Boy Color can be built with either one or two 804020 LiPo pouch cells. 
 NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
 ## PCB Components
 ### Harvested GBC Parts
-You will need a donor GBC -- CPU-06 revisions will NOT work -- that retains the following components in working order:
+You will need a donor GBC of revision CPU-05 or before -- CPU-06 revisions will NOT work -- that retains the following components in working order:
 - CPU
 - RAM
 - Crystal
 - Link port
+- Cartridge slot
 
 ### New parts
 The full BOM for the remaining electrical components can be found in the repo.
@@ -103,5 +104,35 @@ Again, start by populating the components indicated below:
 
 ![Battery and power switch circuitry](fbcBattery.jpg)
 
+Now that the battery circuitry is assembled, a battery can be connected to one of the designated spots for integration testing of the entire power system, e.g B1+ and B1-. At this point, consider the system live any time a battery is connected -- do not do any soldering without first disconnecting all batteries. 
+
+![Hook up spot for battery 1](fbcBatteryTestHookup.jpg)
+
+Once a battery is connected, put your meter into DC voltage mode and perform the following tests. 
+
+![Tests for verifying the battery circuitry](fbcBatteryTest.jpg)
+
+For context, SW_VCC1 is live regardless of power state, and should read roughly the same voltage as the battery at all times. VCC1 is the output of the power switch, and should read 0V when the system is off, and roughly battery voltage when the system is on. Press the power switch to cycle between off and on and take measurements to verify that VCC1 reads the correct values. Now is also a good time to verify that your 5V and 3.3V power rails come up when the system is on.
+
+At this point, assuming everything reads correctly, you can be reasonably certain nothing will get fried, and can proceed to the next step. We'll verify battery charging at a later time.
+
 ### 3. Installing core GBC pieces
+At this point we get to the heart of the system, which is composed of the CPU, RAM, crystal, reset circuitry, display connector, and their support circuitry. The following components should be populated:
+
+![Core components](fbcCore.jpg)
+
+With the core components populated at this point, you should now have a semi-functional Frog Boy. To test, connect a battery like in step 2, plug in your screen kit of choice, and power on the system. You should be greeted with the iconic GBC boot screen.
+
+#### Troubleshooting:
+This is where things might start to go off the rails, given the number of pins on each of these components. Even one floating pin can cause noticeable problems. Here are some potential problems and solutions.
+
+- **Black screen:** Might indicate a short or floating pin on any of the installed components. Verify all of the power measurements from steps 1 and 2 to rule out major shorts. Double check all of the CPU, RAM, and display connector pins for bridges and floating pins.
+- **White screen:** Might indicate a problem with the reset circuitry. Make sure there are no floating pins on U8, C29, R1, or CPU pin 35.
+- **Weird colors on screen:** Indicative of bridged/floating pins on the RAM, top of the CPU, or display connector. Go over each connection to make sure there are no bridges or floating pins.
+
 ### 4. Assembly of remaining circuitry
+With the QFNs and large ICs out of the way, the remainder of the PCB assembly is relatively straightforward, and I have little more to offer in terms of order of assembly or testing.
+
+The remaining bits are a pair of LM4875 audio amplifiers for the stereo audio and the associated circuitry for that, the battery indicator circuit, the cartridge port, and the link port circuitry. Speakers should not be connected until final unit assembly.
+
+One thing I do recommend is to install the tac switches _last_. It's highly advisable that you give the entire board a good clean with IPA to remove any residual flux or other gunk. Doing so with the tac switches installed may carry crap into said switches, which can cause problems with their responsiveness.
