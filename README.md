@@ -27,7 +27,7 @@ Along with needing the requisite skills, there is a very real possibility that y
 
 I am in no way a professional electrical engineer. All of my skills are self taught, or learned from other members of the modding community. While I have taken common sense measures to ensure that the Frog Boy is functional and safe, I can not guarantee that each and every decision made is correct. Build at your own discretion.
 
-In summary, build at your own risk. I am not liable for any damage caused by your insatiable need to build a Game Boy named after an amphibian.
+In summary, build at your own risk. I am not liable for any damage or injury caused by your insatiable need to build a Game Boy named after an amphibian.
 
 # Recommended Equipment
 At a bare minimum, you should have:
