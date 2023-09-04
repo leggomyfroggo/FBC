@@ -52,21 +52,25 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
 - **Shell:** The shell for the Frog Boy Color is a fully custom design, and suitable for both resin printing and CNC machining. NOTE: When ordering in resin, there is a risk of the thin areas around the buttons and d-pad to break during fabrication.
   - **Order from PCBWay**
 - **Buttons:** The Frog Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here as the power button. Some suggested buttons:
-  - **FunnyPlaying:** From RGRS
-  - **RetroCNC:** From RGRS
+  - **FunnyPlaying:** [From RGRS](https://retrogamerepairshop.com/collections/gba-sp-buttons/products/funnyplaying-game-boy-advance-sp-buttons)
+  - **RetroCNC(membrane version):** [From RGRS](https://retrogamerepairshop.com/collections/gba-sp-buttons/products/new-game-boy-sp-metal-buttons-by-retrocnc)
 - **Membranes:** Similarly, the membranes used are also from the Game Boy Advance SP. You will need two sets of these in order to get two brightness button membranes for start/select. Some suggested membranes:
-  - **FunnyPlaying:** From RGRS
+  - **FunnyPlaying:** [From RGRS](https://retrogamerepairshop.com/collections/gba-sp-buttons/products/funnyplaying-game-boy-advance-sp-silicone-pads)
 - **Screen:** The FunnyPlaying laminated Q5 screen -- or a laminated Q5 from another manufacturer with the same total assembly thickness, such as from Gameneissance -- must be used in order to fit within the completed unit. Suggested options:
-  - FunnyPlaying screen + driver board: From RGRS
-  - FunnyPlaying screen only: From RGRS
+- FunnyPlaying laminated Q5 screen + driver board: [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/funnyplaying-game-boy-color-2-0-q5-ips-laminated-backlight-kit)
+  - FunnyPlaying laminated Q5 screen only: [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/funnyplaying-game-boy-color-2-0-q5-ips-laminated-lcd-replacement-screen-only)
 - **Screen driver board:** For the screen driver board, you have two options:
   - FunnyPlaying GBC Retro Pixel 2.0 laminated IPS kit. This is the simplest option, as it can be purchased with the screen, and can be installed as is. The caveat is that the touch sensor will not work if you choose to install in an aluminum shell.
+    - FunnyPlaying driver board: [From FunnyPlaying](https://funnyplaying.com/products/gbc-retro-pixel-ips-2-0-replacement-ribbon)
   - Super OSD Retro Pixel IPS kit. The benefit of this kit is that most functions are available through button controls, which makes it a good choice for aluminum shells. The downside is that you generally can not purchase it with a suitable laminated screen, and the board-to-board ribbon cable is rather stiff, which can cause assembly issues. The latter can be mitigated by using my custom replacement.
-- **Batteries:** The Frog Boy Color can be built with either one or two 804020 LiPo pouch cells. One battery is a simpler arrangement, at the expense of battery life. Two batteries are more complicated, as you'll be required to balance two cells prior to assembly, but with the benefit of roughly double the battery life.
+    - Super OSD kit(for driver board only, screen too thick): [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/game-boy-color-laminated-q5-xl-ips-backlight-with-osd)
+- **Batteries:** The Frog Boy Color can be built with either one or two 802040 LiPo pouch cells. One battery is a simpler arrangement, at the expense of battery life. Two batteries are more complicated, as you'll be required to balance two cells prior to assembly, but with the benefit of roughly double the battery life.
 
   I also highly recommend printing/ordering the optional battery clips in the `accesorySTLs` folder. They register with holes on each side of the PCB, and provide a nice clip and standoff for each of the batteries. Can be cheaply printed in SLS nylon from JLCPCB, PCBWay, etc.
 
   NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
+  Purchase options:
+  - 802040 cell: [From AliExpress](https://www.aliexpress.us/item/3256802244810488.html?spm=a2g0o.order_list.order_list_main.16.43f61802KwXAj4&gatewayAdapt=glo2usa)
 ## PCB Components
 ### Harvested GBC Parts
 You will need a donor GBC of revision CPU-05 or before -- CPU-06 revisions will NOT work -- that retains the following components in working order:
