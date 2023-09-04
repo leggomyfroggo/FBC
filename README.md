@@ -46,7 +46,11 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
 ### PCB
 ![FBC PCB](images/fbcPCB.jpg)
 
-The PCB for the Frog Boy Color is a custom 4-layer circuit board made to hold all of the circuitry and fit within the custom shell.
+The Frog Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters should be used:
+- **Layers:** 4-layer
+- **Thickness:** 1mm
+- **Surface finish:** HASL or ENIG
+- **Color:** Whatever you want
 
 Order here: LINK GOES HERE
 ### Shell
