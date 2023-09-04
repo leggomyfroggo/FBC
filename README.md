@@ -44,36 +44,29 @@ I highly recommend also having the following:
 Below is the breakdown of all materials you will need to build a Frog Boy Color.
 ## Build Components
 - **PCB:** The Frog Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters should be used:
-  <img src="images/fbcPCB.jpg" width="200px" />
   - **Layers:** 4-layer
   - **Thickness:** 1mm
   - **Surface finish:** HASL or ENIG
   - **Color:** Whatever you want
   - **Order from PCBWay**
+- **Shell:** The shell for the Frog Boy Color is a fully custom design, and suitable for both resin printing and CNC machining. NOTE: When ordering in resin, there is a risk of the thin areas around the buttons and d-pad to break during fabrication.
+  - **Order from PCBWay**
+- **Buttons:** The Frog Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here as the power button. Some suggested buttons:
+  - **FunnyPlaying:** From RGRS
+  - **RetroCNC:** From RGRS
+- **Membranes:** Similarly, the membranes used are also from the Game Boy Advance SP. You will need two sets of these in order to get two brightness button membranes for start/select. Some suggested membranes:
+  - **FunnyPlaying:** From RGRS
+- **Screen:** The FunnyPlaying laminated Q5 screen -- or a laminated Q5 from another manufacturer with the same total assembly thickness, such as from Gameneissance -- must be used in order to fit within the completed unit. Suggested options:
+  - FunnyPlaying screen + driver board: From RGRS
+  - FunnyPlaying screen only: From RGRS
+- **Screen driver board:** For the screen driver board, you have two options:
+  - FunnyPlaying GBC Retro Pixel 2.0 laminated IPS kit. This is the simplest option, as it can be purchased with the screen, and can be installed as is. The caveat is that the touch sensor will not work if you choose to install in an aluminum shell.
+  - Super OSD Retro Pixel IPS kit. The benefit of this kit is that most functions are available through button controls, which makes it a good choice for aluminum shells. The downside is that you generally can not purchase it with a suitable laminated screen, and the board-to-board ribbon cable is rather stiff, which can cause assembly issues. The latter can be mitigated by using my custom replacement.
+- **Batteries:** The Frog Boy Color can be built with either one or two 804020 LiPo pouch cells. One battery is a simpler arrangement, at the expense of battery life. Two batteries are more complicated, as you'll be required to balance two cells prior to assembly, but with the benefit of roughly double the battery life.
 
-Order here: LINK GOES HERE
-### Shell
-![FBC shell](images/fbcShell.png)
+  I also highly recommend printing/ordering the optional battery clips in the `accesorySTLs` folder. They register with holes on each side of the PCB, and provide a nice clip and standoff for each of the batteries. Can be cheaply printed in SLS nylon from JLCPCB, PCBWay, etc.
 
-The shell for the Frog Boy Color is a fully custom design, and suitable for both resin printing and CNC machining.
-
-Order here: LINK GOES HERE
-### Buttons + Membranes
-The Frog Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here for use as the power button.
-
-Similarly, the membranes used are also from the Game Boy Advance SP. You will need two sets of these, as the start and select buttons utilize the membrane from the SP's brightness button, which most sets only include one of.
-### Screen Kit
-The FunnyPlaying laminated Q5 screen -- or a laminated Q5 from another manufacturer with the same total assembly thickness, such as from Gameneissance -- must be used in order to fit within the completed unit.
-
-For the screen driver board, you have two options:
-- FunnyPlaying GBC Retro Pixel 2.0 laminated IPS kit. This is the simplest option, as it can be purchased with the screen, and can be installed as is. The caveat is that the touch sensor will not work if you choose to install in an aluminum shell.
-- Super OSD Retro Pixel IPS kit. The benefit of this kit is that most functions are available through button controls, which makes it a good choice for aluminum shells. The downside is that you generally can not purchase it with a suitable laminated screen, and the board-to-board ribbon cable is rather stiff, which can cause assembly issues. The latter can be mitigated by using my custom replacement.
-### Batteries
-The Frog Boy Color can be built with either one or two 804020 LiPo pouch cells. One battery is a simpler arrangement, at the expense of battery life. Two batteries are more complicated, as you'll be required to balance two cells prior to assembly, but with the benefit of roughly double the battery life.
-
-I also highly recommend printing/ordering the optional battery clips in the `accesorySTLs` folder. They register with holes on each side of the PCB, and provide a nice clip and standoff for each of the batteries. Can be cheaply printed in SLS nylon from JLCPCB, PCBWay, etc.
-
-NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
+  NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
 ## PCB Components
 ### Harvested GBC Parts
 You will need a donor GBC of revision CPU-05 or before -- CPU-06 revisions will NOT work -- that retains the following components in working order:
