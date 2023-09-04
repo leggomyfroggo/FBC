@@ -43,14 +43,13 @@ I highly recommend also having the following:
 # Bill of Materials(BOM)
 Below is the breakdown of all materials you will need to build a Frog Boy Color.
 ## Build Components
-### PCB
-![FBC PCB](images/fbcPCB.jpg)
-
-The Frog Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters should be used:
-- **Layers:** 4-layer
-- **Thickness:** 1mm
-- **Surface finish:** HASL or ENIG
-- **Color:** Whatever you want
+- **PCB:** The Frog Boy Color uses a fully custom PCB designed to fit within the custom shell while still using many of the original GBC components. The following board parameters should be used:
+  <img src="images/fbcPCB.jpg" width="200px" />
+  - **Layers:** 4-layer
+  - **Thickness:** 1mm
+  - **Surface finish:** HASL or ENIG
+  - **Color:** Whatever you want
+  - **Order from PCBWay**
 
 Order here: LINK GOES HERE
 ### Shell
