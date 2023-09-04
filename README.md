@@ -1,5 +1,5 @@
 # Frog Boy Color
-![Frog Boy Color](fbc1.jpg)
+![Frog Boy Color](images/fbc1.jpg)
 The Frog Boy Color is a reimagining of the Nintendo Game Boy Color, aka the greatest Game Boy ever made. Taking the best parts of a modded GBC -- large screen with correct aspect ratio, no cartridges sticking out, etc -- and marrying them to a horizontal format ala the GBA, the Frog Boy is the realization of exactly the kind of Game Boy I've wanted since I initially jumped into modding. 
 
 Features include:
@@ -44,13 +44,13 @@ I highly recommend also having the following:
 Below is the breakdown of all materials you will need to build a Frog Boy Color.
 ## Build Components
 ### PCB
-![FBC PCB](fbcPCB.jpg)
+![FBC PCB](images/fbcPCB.jpg)
 
 The PCB for the Frog Boy Color is a custom 4-layer circuit board made to hold all of the circuitry and fit within the custom shell.
 
 Order here: LINK GOES HERE
 ### Shell
-![FBC shell](fbcShell.PNG)
+![FBC shell](images/fbcShell.png)
 
 The shell for the Frog Boy Color is a fully custom design, and suitable for both resin printing and CNC machining.
 
@@ -89,15 +89,15 @@ However, I've devised an assembly strategy after assembling a few units that wil
 ### 1. Assembling and testing power circuitry
 The power circuitry consists of regulated 5V(TPS61202) and 3.3V(MCP1799T) rails. Start by populating all of the components in the red box on this diagram:
 
-![Power circuitry](fbcPower.jpg)
+![Power circuitry](images/fbcPower.jpg)
 
 You'll then want to test these components to verify that the 5V and 3.3V rails are working correctly. Start by connecting one of your LiPo cells to the VCC1 test pad and pin 32(GND) on the cart slot -- I highly recommend using a multimeter in continuity mode to confirm that these points are not shorted.
 
-![Battery hook up points](fbcPowerTestHookup.jpg)
+![Battery hook up points](images/fbcPowerTestHookup.jpg)
 
 Next, with your meter in DC voltage mode, do the following two tests to verify that the 5V and 3.3V rails are outputting the expected voltage.
 
-![Battery hook up points](fbcPowerTest.jpg)
+![Battery hook up points](images/fbcPowerTest.jpg)
 
 If everything looks good, you're ready to proceed to the next step.
 ### 2. Assembling and testing battery charging circuitry
@@ -105,15 +105,15 @@ At the heart of the battery charging circuit is the BQ24072TRGTR, which provides
 
 Again, start by populating the components indicated below:
 
-![Battery and power switch circuitry](fbcBattery.jpg)
+![Battery and power switch circuitry](images/fbcBattery.jpg)
 
 Now that the battery circuitry is assembled, a battery can be connected to one of the designated spots for integration testing of the entire power system, e.g B1+ and B1-. At this point, consider the system live any time a battery is connected -- do not do any soldering without first disconnecting all batteries. 
 
-![Hook up spot for battery 1](fbcBatteryTestHookup.jpg)
+![Hook up spot for battery 1](images/fbcBatteryTestHookup.jpg)
 
 Once a battery is connected, put your meter into DC voltage mode and perform the following tests. 
 
-![Tests for verifying the battery circuitry](fbcBatteryTest.jpg)
+![Tests for verifying the battery circuitry](images/fbcBatteryTest.jpg)
 
 For context, SW_VCC1 is live regardless of power state, and should read roughly the same voltage as the battery at all times. VCC1 is the output of the power switch, and should read 0V when the system is off, and roughly battery voltage when the system is on. Press the power switch to cycle between off and on and take measurements to verify that VCC1 reads the correct values. Now is also a good time to verify that your 5V and 3.3V power rails come up when the system is on.
 
@@ -122,7 +122,7 @@ At this point, assuming everything reads correctly, you can be reasonably certai
 ### 3. Installing core GBC pieces
 At this point we get to the heart of the system, which is composed of the CPU, RAM, crystal, reset circuitry, display connector, and their support circuitry. The following components should be populated:
 
-![Core components](fbcCore.jpg)
+![Core components](images/fbcCore.jpg)
 
 With the core components populated at this point, you should now have a semi-functional Frog Boy. To test, connect a battery like in step 2, plug in your screen kit of choice, and power on the system. You should be greeted with the iconic GBC boot screen.
 
