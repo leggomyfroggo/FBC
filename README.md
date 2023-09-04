@@ -72,16 +72,15 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   Purchase options:
   - 802040 cell: [From AliExpress](https://www.aliexpress.us/item/3256802244810488.html?spm=a2g0o.order_list.order_list_main.16.43f61802KwXAj4&gatewayAdapt=glo2usa)
 ## PCB Components
-### Harvested GBC Parts
-You will need a donor GBC of revision CPU-05 or before -- CPU-06 revisions will NOT work -- that retains the following components in working order:
-- CPU
-- RAM
-- Crystal
-- Link port
-- Cartridge slot
-
-### New parts
-The full BOM for the remaining electrical components can be found in the repo.
+- **Harvested GBC Parts:** You will need a donor GBC of revision CPU-05 or before -- CPU-06 revisions will NOT work -- that retains the following components in working order:
+  - CPU
+  - RAM
+  - Crystal
+  - Link port
+  - Cartridge slot
+- **New parts:** The full BOM for the Frog Boy Color be found in the repo, `BOM.xlsx`. Most parts are available from Mouser through a shared project. USB-C connector is available from LCSC. Most parts should be available from most other large distributors in case you want to build out your own cart. Some options:
+  - Mouser: [Shared Project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2927c2105f)
+  - LCSC: [USB-C connector](https://www.lcsc.com/product-detail/USB-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html)
 
 # Recommended Assembly Procedure
 At this point, if you feel confident in your skills, you can proceed with the complete build from PCB to final unit -- assembly after building the PCB is relatively straightforward.
