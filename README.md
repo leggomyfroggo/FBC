@@ -68,6 +68,8 @@ For the screen driver board, you have two options:
 ### Batteries
 The Frog Boy Color can be built with either one or two 804020 LiPo pouch cells. One battery is a simpler arrangement, at the expense of battery life. Two batteries are more complicated, as you'll be required to balance two cells prior to assembly, but with the benefit of roughly double the battery life.
 
+I also highly recommend printing/ordering the optional battery clips in the `accesorySTLs` folder. They register with holes on each side of the PCB, and provide a nice clip and standoff for each of the batteries. Can be cheaply printed in SLS nylon from JLCPCB, PCBWay, etc.
+
 NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
 ## PCB Components
 ### Harvested GBC Parts
