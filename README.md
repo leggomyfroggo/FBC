@@ -51,6 +51,9 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   - **Order from PCBWay**
 - **Shell:** The shell for the Frog Boy Color is a fully custom design, and suitable for both resin printing and CNC machining. NOTE: When ordering in resin, there is a risk of the thin areas around the buttons and d-pad to break during fabrication.
   - **Order from PCBWay**
+- **Screws:** The shell is designed to be put together using 13 x M2 4mm machine screws. For builds using a resin printed front shell, the cartridge shield screws can likely be reused for that purpose, which cuts M2 screws required to 9. Options:
+  - **450pcs M2 M2.5 M3 Screw Kit:** [From Amazon](https://www.amazon.com/gp/product/B07TDHZJLL/)
+- **Cartridge shield:** The metal cartridge shield from the GBC is used here for the same purpose. This can be sourced from your donor console, or from any aftermarket shell.
 - **Buttons:** The Frog Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here as the power button. Some suggested buttons:
   - **FunnyPlaying:** [From RGRS](https://retrogamerepairshop.com/collections/gba-sp-buttons/products/funnyplaying-game-boy-advance-sp-buttons)
   - **RetroCNC(membrane version):** [From RGRS](https://retrogamerepairshop.com/collections/gba-sp-buttons/products/new-game-boy-sp-metal-buttons-by-retrocnc)
