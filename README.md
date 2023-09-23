@@ -60,7 +60,7 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
 - **Membranes:** Similarly, the membranes used are also from the Game Boy Advance SP. You will need two sets of these in order to get two brightness button membranes for start/select. Some suggested membranes:
   - **FunnyPlaying:** [From RGRS](https://retrogamerepairshop.com/collections/gba-sp-buttons/products/funnyplaying-game-boy-advance-sp-silicone-pads)
 - **Screen:** The FunnyPlaying laminated Q5 screen -- or a laminated Q5 from another manufacturer with the same total assembly thickness, such as from Gameneissance -- must be used in order to fit within the completed unit. Suggested options:
-- FunnyPlaying laminated Q5 screen + driver board: [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/funnyplaying-game-boy-color-2-0-q5-ips-laminated-backlight-kit)
+  - FunnyPlaying laminated Q5 screen + driver board: [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/funnyplaying-game-boy-color-2-0-q5-ips-laminated-backlight-kit)
   - FunnyPlaying laminated Q5 screen only: [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/funnyplaying-game-boy-color-2-0-q5-ips-laminated-lcd-replacement-screen-only)
 - **Screen driver board:** For the screen driver board, you have two options:
   - FunnyPlaying GBC Retro Pixel 2.0 laminated IPS kit. This is the simplest option, as it can be purchased with the screen, and can be installed as is. The caveat is that the touch sensor will not work if you choose to install in an aluminum shell.
