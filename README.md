@@ -12,6 +12,10 @@ Features include:
 
 The following is a guide on how you can build your very own Frog Boy.
 
+# Attribution
+Before getting to the build, it's important to provide attribution to the other project(s) that have in part gone into the Frog Boy Color.
+- **[Gekkio/gekkio-kicad-libs](https://github.com/Gekkio/gekkio-kicad-libs)**: The FBC incorporates several of Gekkio's excellent kicad symbols and footprints, including for the CPU, RAM(modified), link port, and cartridge connector(modified). Huge thanks to Gekkio for making these available for others to use!
+
 # Disclaimer/Warning/For the love of God, read this
 The Frog Boy is not an easy project, nor is it a professional product, and as such there are some things to keep in mind as you consider building one.
 
