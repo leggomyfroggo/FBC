@@ -52,10 +52,19 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   - **Thickness:** 1mm
   - **Surface finish:** HASL or ENIG
   - **Color:** Whatever you want
-  - **Order from PCBWay**
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
 - **Shell:** The shell for the Frog Boy Color is a fully custom design, and suitable for both resin printing and CNC machining. NOTE: When ordering in resin, there is a risk of the thin areas around the buttons and d-pad to break during fabrication.
-  - **Order from PCBWay**
-- **Screws:** The shell is designed to be put together using 13 x M2 4mm machine screws. For builds using a resin printed front shell, the cartridge shield screws can likely be reused for that purpose, which cuts M2 screws required to 9. Options:
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
+- **Volume Wheel:** The volume wheel is another custom piece, and is intended to be CNC machined. Resin printing will probably work, but is untested.
+  - Step file available in `Accessories` folder so you can get it produced where you wish.
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
+- **Battery Clips:** Clips for the batteries to keep them in place. Left and right clips are different, and you'll want one of each. Not stricly necessary, but highly recommended. Should be printed in SLS/MJF nylon.
+  - STL files available in `Accessories` folder so you can get them produced where you wish.
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
+- **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them. An STL for this can be found in `Accessories`. This should be printed with clear filament or resin.
+  - STL files available in `Accessories` folder so you can get them produced where you wish.
+  - [**Order from PCBWay**](https://www.pcbway.com/project/shareproject/Frog_Boy_Color_PCB_29101ba1.html)
+- **Screws:** The shell is designed to be put together using 13 x M2 4mm machine screws with flat tops. For builds using a resin printed front shell, the cartridge shield screws can likely be reused for that purpose, which cuts M2 screws required to 9. Options:
   - **450pcs M2 M2.5 M3 Screw Kit:** [From Amazon](https://www.amazon.com/gp/product/B07TDHZJLL/)
 - **Cartridge shield:** The metal cartridge shield from the GBC is used here for the same purpose. This can be sourced from your donor console, or from any aftermarket shell.
 - **Buttons:** The Frog Boy Color uses buttons from the Game Boy Advance SP, either OEM or aftermarket. You will need a complete set, including the brightness button which is repurposed here as the power button. Some suggested buttons:
@@ -72,7 +81,6 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   - Super OSD Retro Pixel IPS kit. An alternative to the FunnyPlaying kit with additional options. The downside is that you generally can not purchase it with a suitable laminated screen, and the board-to-board ribbon cable is rather stiff, which can cause assembly issues. The latter can be mitigated by using the custom replacement found under the `Accessories` folder.
     - Super OSD kit(for driver board only, screen too thick): [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/game-boy-color-laminated-q5-xl-ips-backlight-with-osd)
 - **Batteries:** The Frog Boy Color can be built with either one or two 802040 LiPo pouch cells. One battery is a simpler arrangement, at the expense of battery life. Two batteries are more complicated, as you'll be required to balance two cells prior to assembly, but with the benefit of roughly double the battery life.
-- **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them. An STL for this can be found in `Accessories`. This should be printed with clear filament or resin.
 
   I also highly recommend printing/ordering the optional battery clips in the `Accessories` folder. They register with holes on each side of the PCB, and provide a nice clip and standoff for each of the batteries. Can be cheaply printed in SLS nylon from JLCPCB, PCBWay, etc.
 
