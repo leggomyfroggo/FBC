@@ -69,11 +69,12 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
 - **Screen driver board:** For the screen driver board, you have two options:
   - FunnyPlaying GBC Retro Pixel 2.0 laminated IPS kit. This is the simplest option, as it can be purchased with the screen, and can be installed as is. The caveat is that the touch sensor will not work if you choose to install in an aluminum shell, and you'll need to connect the button controls.
     - FunnyPlaying driver board: [From FunnyPlaying](https://funnyplaying.com/products/gbc-retro-pixel-ips-2-0-replacement-ribbon)
-  - Super OSD Retro Pixel IPS kit. An alternative to the FunnyPlaying kit with additional options. The downside is that you generally can not purchase it with a suitable laminated screen, and the board-to-board ribbon cable is rather stiff, which can cause assembly issues. The latter can be mitigated by using the custom replacement found under the "Accessories" folder.
+  - Super OSD Retro Pixel IPS kit. An alternative to the FunnyPlaying kit with additional options. The downside is that you generally can not purchase it with a suitable laminated screen, and the board-to-board ribbon cable is rather stiff, which can cause assembly issues. The latter can be mitigated by using the custom replacement found under the `Accessories` folder.
     - Super OSD kit(for driver board only, screen too thick): [From RGRS](https://retrogamerepairshop.com/collections/gbc-displays/products/game-boy-color-laminated-q5-xl-ips-backlight-with-osd)
 - **Batteries:** The Frog Boy Color can be built with either one or two 802040 LiPo pouch cells. One battery is a simpler arrangement, at the expense of battery life. Two batteries are more complicated, as you'll be required to balance two cells prior to assembly, but with the benefit of roughly double the battery life.
+- **Light pipe:** An optional light pipe can be added for the indicator LEDs to better diffuse them. An STL for this can be found in `Accessories`. This should be printed with clear filament or resin.
 
-  I also highly recommend printing/ordering the optional battery clips in the `accesorySTLs` folder. They register with holes on each side of the PCB, and provide a nice clip and standoff for each of the batteries. Can be cheaply printed in SLS nylon from JLCPCB, PCBWay, etc.
+  I also highly recommend printing/ordering the optional battery clips in the `Accessories` folder. They register with holes on each side of the PCB, and provide a nice clip and standoff for each of the batteries. Can be cheaply printed in SLS nylon from JLCPCB, PCBWay, etc.
 
   NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
   Purchase options:
