@@ -145,6 +145,29 @@ This is where things might start to go off the rails, given the number of pins o
 ### 4. Assembly of remaining circuitry
 With the QFNs and large ICs out of the way, the remainder of the PCB assembly is relatively straightforward, and I have little more to offer in terms of order of assembly or testing.
 
-The remaining bits are a pair of LM4875 audio amplifiers for the stereo audio and the associated circuitry for that, the battery indicator circuit, the cartridge port, and the link port circuitry. Speakers should not be connected until final unit assembly.
+The remaining bits are a pair of LM4875 audio amplifiers for the stereo audio and the associated circuitry for that, the battery indicator circuit, the cartridge port, and the link port circuitry. Except for testing, speakers should not be connected until final unit assembly.
+
+Battery charging can be tested at this point by connecting a battery to the proper spot on the board, and then plugging in a USB-C cable. If charging is working correctly, you should see the charge indicator light on the front of the board turn on and stay on during the duration of charging.
 
 One thing I do recommend is to install the tac switches _last_. It's highly advisable that you give the entire board a good clean with IPA to remove any residual flux or other gunk. Doing so with the tac switches installed may carry crap into said switches, which can cause problems with their responsiveness.
+
+### Troubleshooting:
+- **Charge light doesn't come on:** Verify that the 5V from USB makes it to the right side of F2. If it does, check the soldering on the charge indicator LED and the charge IC. If there's still no charge indicator, double check that the LED is working using a multimeter in diode mode. If all else fails, the charge IC might be dead.
+- **Charge light comes on that shuts off immediately:** Charge IC is most likely dead. Give it a reflow prior to replacing, just to be certain.
+
+## Final Assembly
+Assembly of the final unit after successfully building the PCB is relatively straightforward, but here are some component specific pointers.
+
+### Speakers
+In contrast to OEM Game Boys, speaker polarity matters in the case of the FBC, at least between the two speakers. The same terminal on each speaker should connect to the same polarity speaker pad on the motherboard, e.g. left to positive, right to negative. If the speakers are connected with polarity reversed relative to eachother, destructive interference will cancel out much of the audio.
+
+To keep the speakers in place before placing the PCB, I recommend placing a thin piece of double sided tape to the front edge of each speaker.
+
+### Cartridge shield
+With the current shell design in some materials, the cartridge shield may cause cartridges to not sit perfectly flush with the back of the unit. This will be fixed in a future iteration of the shell, but if you encounter this issue, simply back off the screws on the cartridge shield about 1/2 turn so it's slightly loose.
+
+### Screen kit controls
+I highly recommend connecting the controls for whatever screen kit you've chosen to the button test points on the front of the FBC board. While touch sensors in general work okay in plastic shells, they can still be flakey, and don't work at all in metal shells. It's recommended to cut off the touch sensor in this case to prevent accidental triggers.
+
+### Assembly video
+To get an overview of the assembly process, check out my video about the Frog Boy Color: [YouTube](https://youtu.be/_rRCEbcjiho)
