@@ -87,6 +87,15 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
   Purchase options:
   - 802040 cell: [From AliExpress](https://www.aliexpress.us/item/3256802244810488.html?spm=a2g0o.order_list.order_list_main.16.43f61802KwXAj4&gatewayAdapt=glo2usa)
+ 
+## Shell Ordering Notes
+### CNC Machining
+- When ordering the front and back shell, make sure you check the box indicating that you need tapped threads. Thread tapping information is already included in the technical drawings.
+- Colors for aluminum shells are found under certain "Surface finish" options, such as anodizing.
+### Resin Printing
+- In the order notes, ask for the shell to be "printed at 99.5% scale on all axes". Resin has a tendency to shrink as it cures, and printers will often overscale to account for this.
+- For transparent resin, colors can be selected when choosing dying from the "Surface finish" options.
+
 ## PCB Components
 - **Harvested GBC Parts:** You will need a donor GBC of revision CPU-05 or before -- CPU-06 revisions will NOT work -- that retains the following components in working order:
   - CPU
