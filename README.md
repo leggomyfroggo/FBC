@@ -1,6 +1,6 @@
 # Frog Boy Color
 ![Frog Boy Color](images/fbc1.jpg)
-The Frog Boy Color is a reimagining of the Nintendo Game Boy Color, aka the greatest Game Boy ever made. Taking the best parts of a modded GBC -- large screen with correct aspect ratio, no cartridges sticking out, etc -- and marrying them to a horizontal format ala the GBA, the Frog Boy is the realization of exactly the kind of Game Boy I've wanted since I initially jumped into modding. 
+The Frog Boy Color is a reimagining of the Nintendo Game Boy Color, aka the greatest Game Boy ever made. Taking the best parts of a modded GBC -- large screen with correct aspect ratio, no cartridges sticking out, etc -- and marrying them to a horizontal format ala the GBA, the Frog Boy is the realization of exactly the kind of Game Boy I've wanted since I initially jumped into modding.
 
 Features include:
 - All features of the original GBC minus IR -- use of GB/GBC cartridges, link cable, headphone jack, etc.
@@ -25,6 +25,7 @@ Assembly of the Frog Boy requires intermediate-advanced skills in soldering and 
 - Soldering of small surface mount devices
 - Soldering of leadless ICs, for example the TSP61202
 - Proficiency with a multimeter for troubleshooting and validation
+
 This is in no way a project for beginners, and if you don't have experience with the above, I highly recommend starting smaller -- solder practice kits are cheap and easily available.
 
 Along with needing the requisite skills, there is a very real possibility that you will irreparably damage either your donor Game Boy Color, or the resulting Frog Boy. Even the most skilled among us make mistakes, but it's important to keep in mind your own limits to avoid heartache and sorrow.
@@ -87,7 +88,7 @@ Below is the breakdown of all materials you will need to build a Frog Boy Color.
   NOTE: LiPo batteries can be dangerous if mishandled. NEVER use unprotected cells. It's always safer to use one cell if you're unsure of your ability to properly balance two cells.
   Purchase options:
   - 802040 cell: [From AliExpress](https://www.aliexpress.us/item/3256802244810488.html?spm=a2g0o.order_list.order_list_main.16.43f61802KwXAj4&gatewayAdapt=glo2usa)
- 
+
 ## Shell Ordering Notes
 ### CNC Machining
 - When ordering the front and back shell, make sure you check the box indicating that you need tapped threads. Thread tapping information is already included in the technical drawings.
@@ -133,11 +134,11 @@ Again, start by populating the components indicated below:
 
 ![Battery and power switch circuitry](images/fbcBattery.jpg)
 
-Now that the battery circuitry is assembled, a battery can be connected to one of the designated spots for integration testing of the entire power system, e.g B1+ and B1-. At this point, consider the system live any time a battery is connected -- do not do any soldering without first disconnecting all batteries. 
+Now that the battery circuitry is assembled, a battery can be connected to one of the designated spots for integration testing of the entire power system, e.g B1+ and B1-. At this point, consider the system live any time a battery is connected -- do not do any soldering without first disconnecting all batteries.
 
 ![Hook up spot for battery 1](images/fbcBatteryTestHookup.jpg)
 
-Once a battery is connected, put your meter into DC voltage mode and perform the following tests. 
+Once a battery is connected, put your meter into DC voltage mode and perform the following tests.
 
 ![Tests for verifying the battery circuitry](images/fbcBatteryTest.jpg)
 
