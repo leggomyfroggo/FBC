@@ -1,3 +1,9 @@
+# 6/2/2024
+## Bill of Materials/PCB
+- Added footprints for spring contact speakers in place of wired speakers
+- Removed battery connector footprints
+- Added X1 as an alternative oscillator in place of Y1 harvested from the GBC
+
 # 3/29/2024
 ## Shell
 - Button wells reduced in depth by 0.5mm
